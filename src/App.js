@@ -1,10 +1,16 @@
 import "./App.css";
-import FormikContainer from "./components/FormikContainer";
+// import ListOfPhone from "./components/ListOfPhone";
+// import FormikOne from "./components/FormikOne";
+// import FormikTwo from "./components/FormikTwo";
+import PhoneNumber from "./components/PhoneNumber";
 
 function App() {
   return (
     <div className='App'>
-      <FormikContainer />
+      {/* <FormikOne /> */}
+      {/* <FormikTwo /> */}
+      {/* <ListOfPhone /> */}
+      <PhoneNumber />
     </div>
   );
 }
